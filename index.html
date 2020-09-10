@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/97adec7475.js" crossorigin="anonymous"></script>
+    <title>Drip Drop Agency</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__inner">
+            <header class="page-header">
+                <a href="#" class="page-header__logo-link">
+                    <img src="/assets/image/logo-link.png" alt="Site logo" class="page-header__logo-image" width="76" height="51">
+                </a>
+    
+                <nav class="main-nav">
+                    <ul class="main__nav site-list">
+                        <li class="site-list__item">
+                            <a class="site-list__link" href="">Home</a>
+                        </li>
+                        
+                        <li class="site-list__item">
+                            <a class="site-list__link" href="">About</a>
+                        </li>
+                        
+                        <li class="site-list__item">
+                            <a class="site-list__link" href="">Contact</a>
+                        </li>
+                    </ul>
+    
+                    <ul class="main__nav icon-list">
+                        <li class="icon-list__item">
+                            <a class="icon-list__link" href="">Mail
+                                <i class="far fa-envelope"></i>
+                            </a>
+                        </li>
+                        
+                        <li class="icon-list__item">
+                            <a class="icon-list__link" href="">Twitter
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        
+                        <li class="icon-list__item">
+                            <a class="icon-list__link" href="">Facebook
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+    
+                        <li class="icon-list__item">
+                            <a class="icon-list__link" href="">Instagram
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+    
+            <div class="nav-panel__wrapper">
+                <ul class="nav-panel__list">
+                    <li class="nav-panel__item" onclick="currentSlide(1)">
+                        <button class="nav-panel__btn">
+                            <div class="nav-panel__circle"></div>
+                            The Results Driven Marketing Agency 
+                        </button>
+                    </li>
+                    <li class="nav-panel__item" onclick="currentSlide(2)">
+                        <button class="nav-panel__btn" id="lessBtn">
+                            <div class="nav-panel__circle"></div>
+                            Less Is More 
+                        </button>
+                    </li>
+                    <li class="nav-panel__item" onclick="currentSlide(3)">
+                        <button class="nav-panel__btn">
+                            <div class="nav-panel__circle"></div>
+                            Invest In Your Business By Hiring Drip Drop 
+                        </button>
+                    </li>
+                    <li class="nav-panel__item" onclick="currentSlide(4)">
+                        <button class="nav-panel__btn">
+                            <div class="nav-panel__circle"></div>
+                            Who We Work With
+                        </button>
+                    </li>
+                    <li class="nav-panel__item" onclick="currentSlide(5)">
+                        <button class="nav-panel__btn">
+                            <div class="nav-panel__circle"></div>
+                            Don’t Just Take Our Word For It!
+                        </button>
+                    </li>
+                    <li class="nav-panel__item" onclick="currentSlide(6)">
+                        <button class="nav-panel__btn">
+                            <div class="nav-panel__circle"></div>
+                            Want To Increase Your Sales Without Spending A Fortune? 
+                        </button>
+                    </li>
+                </ul>
+                <div class="nav-panel"></div>
+            </div>
+        </div>
+    </div>
+
+    <main class="page-main">
+        <h1 class="visually-hidden">Drip Drop Agency</h1>
+        <div class="slideshow-container">
+            <section class="intro">
+                <div class="intro-wrapper slider">
+                    <div class="intro__description">
+                        <h2 class="intro__title">Holla! Let's get acquainted!</h2>
+                        <p class="intro__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla
+                        </p>
+                        <div class="intro__btn" href="#">
+                            <a href="#">
+                                <img class="intro__btn-img" src="/assets/image/intro-btn.png" alt="">
+                            </a>
+                            <a href="#">Get in touch</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="result slider">
+                <h2 class="section-title result__title">The Results Driven Marketing Agency </h2>
+                <ul class="result__list">
+                    <li class="result__item">
+                        <article class="result__article">
+                            <img class="result__article-img" width="62" height="80" src="/assets/image/result1.png" alt="">
+                            <p class="result__description">
+                                Here at Drip Drop sales, we view marketing as a tap. Once you turn the tap on, you can get a consistent, flowing stream of leads and sales into your business. The trouble is, most businesses know the importance of marketing but are either trying to do it all in-house or are currently outsourcing it to companies that just aren’t delivering results.
+                            </p>
+                        </article>
+                    </li>
+                    <li class="result__item">
+                        <article class="result__article">
+                            <img class="result__article-img" width="62" height="80" src="/assets/image/result2.png" alt="">
+                            <p class="result__description">
+                                Our sole focus is on generating you more leads and increasing your conversions so that you can focus on running your business. We manage the entire sales funnel process, including ad design, management, CRM creation and closing prospects over the phone for you.                         </p>
+                        </article>
+                    </li>
+                    <li class="result__item">
+                        <article class="result__article">
+                            <img class="result__article-img" width="62" height="80" src="/assets/image/result3.png" alt="">
+                            <p class="result__description">
+                                Marketing isn’t our job, it’s our passion and that’s what makes us different. We’re a marketing agency that is obsessed with your results, because the more sales you get, the longer you’ll want to work with us!                        </p>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="less slider">
+                <div class="less__text">
+                    <h2 class="section-title less__title">Less Is More </h2>
+                    <ul>
+                        <li class="less__item">
+                            The starting point to any marketing strategy is narrowing down the marketing channels that will be used. We focus on optimising one channel at a time, to ensure that it’s working for you before we explore others.
+                        </li>
+                        <li class="less__item">
+                            This way, your marketing efforts can grow in a sustainable way, based on tracked metrics, to ensure you understand where we are with each strategy. We don’t look to overwhelm you with loads of confusing suggestions. Instead, we walk you through each strategy step by step, to keep marketing simple for you.
+                        </li>
+                    </ul>
+                </div>
+                <img src="/assets/image/less.png" width="438" height="438" alt="">
+            </section>
+
+            <section class="invests slider">
+                <div class="invests__column">
+                    <div class="invests__column column-text">
+                        <div class="column-text__wrapper">
+                            <h3 class="column-text__title">Marketing Consultancy</h3>
+                            <p class="column-text__description">
+                                Whether your goal is to boost existing sales or to launch a new product or service, your marketing strategy will be the key difference between success and failure.
+                            </p>
+                            <p class="column-text__description">
+                                Our in-house experts can use your existing data to identify gaps in your current strategy, make recommendations based on strategic thinking and meticulous planning and then implement the strategy to ensure that it’s optimized to bring you results. 
+                            </p>
+                        </div>
+
+                        <div class="column-text__wrapper">
+                            <h3 class="column-text__title">Sales Consultancy</h3>
+                            <figcaption class="column-text__title-subtext">(Only available as an add on service)</figcaption>
+                            <p class="column-text__description">
+                                Once your marketing efforts are working for you, it’s critical to look at your conversion rates. Getting leads is the starting point but without the ability to close those leads, your marketing efforts end up costing you more money than they are worth. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="invests__column second">
+                    <h2 class="section-title invests__title">Invest In Your Business By Hiring Drip Drop</h2> 
+                    <div class="invests__column column-numbers">
+                        <div class="column-numbers__item">
+                            <h3 class="column-numbers__title">Marketing Consultancy</h3>
+                            <div class="column-numbers__value-wrapper">    
+                                <span class="column-numbers__currency">£</span>
+                                <div class="column-numbers__value">2000</div>
+                                <div class="column-numbers__signature">Initial Investment</div>
+                            </div>    
+                            <ul class="column-numbers__list">
+                                <li class="column-numbers__list item">
+                                    <img class="item__img" src="/assets/image/list-item.jpg" width="16" height="13" alt="">
+                                    FB Ad Creation.
+                                </li>
+                                <li class="column-numbers__list item">
+                                    <img class="item__img" src="/assets/image/list-item.jpg" width="16" height="13" alt="">
+                                    Ad Management</li>
+                                <li class="column-numbers__list item">
+                                    <img class="item__img" src="/assets/image/list-item.jpg" width="16" height="13" alt="">
+                                    Sales Funnels</li>
+                            </ul>
+                            <p class="column-numbers__info">
+                                Ongoing Monthly Fee - £800* Minimum of 3 Months 
+                            </p>
+                        </div>
+
+                        <div class="column-numbers__item">
+                            <h3 class="column-numbers__title">Marketing Consultancy</h3>
+                            <div class="column-numbers__value-wrapper">    
+                                <span class="column-numbers__currency">£</span>
+                                <div class="column-numbers__value">1000</div>
+                                <div class="column-numbers__signature">Initial Investment</div>
+                            </div>    
+                            <ul class="column-numbers__list">
+                                <li class="column-numbers__list item">
+                                    <img class="item__img" src="/assets/image/list-item.jpg" width="16" height="13" alt="">
+                                    FB Ad Creation.
+                                </li>
+                                <li class="column-numbers__list item">
+                                    <img class="item__img" src="/assets/image/list-item.jpg" width="16" height="13" alt="">
+                                    Ad Management</li>
+                                <li class="column-numbers__list item">
+                                    <img class="item__img" src="/assets/image/list-item.jpg" width="16" height="13" alt="">
+                                    Sales Funnels</li>
+                            </ul>
+                            <p class="column-numbers__info">
+                                Ongoing Monthly Fee  £1000* + 15% Commission Minimum of 3 Months  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work slider">
+                <div class="work__description">
+                    <h2 class="section-title work__title">Who We Work With</h2>
+                    <p class="work__text">
+                        Here at Drip Drop, we understand the importance of a carefully crafted marketing strategy, which is why we only work with brands and businesses who are serious about growth. Many businesses treat marketing as an afterthought.
+                    </p>
+                    <p class="work__text">
+                        But when you work with us, we make lead generation and sales a priority, because without them, you may have a great offering, but you’ll have no revenue. And without revenue, you won’t have a business for much longer.
+                    </p>
+
+                    <ul class="work__list">
+                        <li class="work__item">
+                            <a href="#" class="work__item-link">
+                                <img src="/assets/image/netflix.png" width="104" height="32" alt="netflix" class="work__item-img">
+                            </a>
+                        </li>
+                        <li class="work__item">
+                            <a href="#" class="work__item-link">
+                                <img src="/assets/image/draw-kit.png" width="90" height="32" alt="draw-kit" class="work__item-img">
+                            </a>
+                        </li>
+                        <li class="work__item">
+                            <a href="#" class="work__item-link">
+                                <img src="/assets/image/figma.png" width="76" height="32" alt="figma" class="work__item-img">
+                            </a>
+                        </li>
+                        <li class="work__item">
+                            <a href="#" class="work__item-link">
+                                <img src="/assets/image/stripe.png" width="85" height="32" alt="stripe" class="work__item-img">
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="work__buttons">
+                        <button class="work__button button-next" type="button">
+                            Prew
+                            <img class="button__prev" src="/assets/image/prev-btn.png" alt="">
+                        </button>
+                        <button class="work__button button-prev" type="button">
+                            Next
+                            <img class="button__prev" src="/assets/image/next-btn.png" alt="">
+                        </button>
+                    </p>
+                </div>
+                <div class="work__images images">
+                    <ul class="images__list">
+                        <li class="images__item">
+                            <a href="#">
+                                <img src="/assets/image/work__img-1.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="images__item">
+                            <a href="#">
+                                <img src="/assets/image/work__img-2.jpg" alt="">
+                            </a>
+                        </li>
+                        <li class="images__item">
+                            <a href="#">
+                                <img src="/assets/image/work__img-3.jpg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="feedback slider">
+                <h2 class="section-title feedback__title">Don’t Just Take Our Word For It!</h2>
+                <p class="feedback__say">Here’s What Our Customers Have To Say:</p>
+                <ul class="feedback__list">
+                    <li class="feedback__item">
+                        <h3 class="section-title--feedback">Feedback from Name</h3>
+                        <p class="feedback__descriptoin feedback__descriptoin--main">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla.
+                        </p>
+                        <div class="feedback__autor-block">
+                            <div class="feedback__autor-company">Art Director from Comapny name</div>
+                            <div class="feedback__autor-link">
+                                <a href="#"><img class="feedback__instagram" src="/assets/image/i-instagram.png" alt=""></a>
+                                <a href="#"><img class="feedback__facebook" src="/assets/image/i-facebook.png" alt=""></a>
+                                <div class="feedback__autor">Brooklyn Simmons</div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feedback__item column-small">
+                        <div class="feedback__descriptoin ">
+                            Feedback from Comapny name
+                        </div>
+                    </li>
+
+                    <li class="feedback__item column-small">
+                        <div class="feedback__descriptoin">
+                            Feedback from Comapny name
+                        </div>
+                    </li>
+                    
+                    <li class="feedback__item column-small">
+                        <div class="feedback__descriptoin">
+                            Feedback from Comapny name
+                        </div>
+                    </li>
+
+                    <li class="feedback__item column-small">
+                        <div class="feedback__descriptoin">
+                            Feedback from Comapny name
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="sales slider">
+                <h2 class="section-title sales__title">Want To Increase Your Sales Without Spending A Fortune? </h2>
+                <div class="sales__inner form">
+                    <div class="form__left">
+                        <h3 class="form__title">You will be in good company</h3>
+                        <p class="form__description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.
+                        </p>
+
+                        <form class="form__submit" action="#" class="form__block">
+                            <label class="form__label" for="">Enter your email adress</label>
+                            <input class="form__input" type="text">
+                            <button class="form__btn">
+                                Submin
+                                <img src="/assets/image/submit.png" alt="">
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="form__right extended">
+                        <p class="extended__field">
+                            <label class="extended__label"  for="first-name">First name</label>
+                            <input class="extended__input" type="text" id="first-name">
+                        </p>
+                        <p class="extended__field">
+                            <label class="extended__label" for="last-name ">Last name </label>
+                            <input class="extended__input" type="text" id="last-name">
+                        </p>
+                        <p class="extended__field">
+                            <label class="extended__label" for="email">Email</label>
+                            <input class="extended__input" type="text" id="email">
+                        </p>
+                        <p class="extended__field">
+                            <label class="extended__label" for="email">Phone Number</label>
+                            <input class="extended__input" type="text" id="phone">
+                        </p>
+                        <p class="extended__field">
+                            <label class="extended__label extended__label--textarea" for="textarea">Detail</label>
+                            <textarea class="extended__textarea" name="textarea" id="textarea" cols="30" rows="3">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel</textarea>
+                        </p>
+                        <button class="extended__btn">
+                            submit
+                            <img class="extended__btn-img" src="/assets/image/submit-white.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/form.js"></script>
+</body>
+</html>
